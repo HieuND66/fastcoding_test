@@ -1,0 +1,258 @@
+@media only screen and (max-width: 1280px) {
+  .container {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 821px) {
+  .slider-section {
+    height: auto;
+    padding: 30px 0;
+  }
+  .slider-left {
+    gap: 16px;
+  }
+  .silder-title {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+  .form-area {
+    height: auto;
+  }
+  .form-wrap {
+    padding: 12px;
+    gap: 20px;
+  }
+  .tab {
+    padding: 40px 0;
+  }
+  .tab-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tab-item {
+    width: 190px;
+    height: 84px;
+  }
+  .tab-select {
+    flex-direction: row;
+    width: 100%;
+  }
+  .tab-item:first-child {
+    border-radius: 0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  .tab-item:last-child {
+    border-radius: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  .tab-content,
+  .tab-img {
+    width: 100%;
+  }
+  .tab-img {
+    text-align: center;
+  }
+  .sub-section {
+    padding: 40px 0;
+  }
+  .sub-wrap {
+    flex-direction: column;
+    width: 100%;
+  }
+  .sub-content {
+    width: 100%;
+  }
+  .sub-img img {
+    width: 100%;
+  }
+  .features-section {
+    padding: 40px 0;
+  }
+  .features-section .sub-wrap {
+    flex-direction: column-reverse;
+  }
+  .awesome-section,
+  .contact-section {
+    padding: 40px 0;
+  }
+  .stylish {
+    height: 300px;
+    padding: 40px 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .awesome-section_title {
+    font-size: 30px;
+  }
+  .stylish-title {
+    font-size: 28px;
+  }
+  .separate {
+    margin-top: 8px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .slider-wrap {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .slider-form {
+    width: 100%;
+  }
+  .silder-title {
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.4;
+  }
+  .slider-left .text {
+    text-align: center;
+  }
+  .slider-left .text {
+    font-size: 14px;
+    line-height: 1.418;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  .form-header,
+  .btn-get {
+    font-size: 20px;
+    font-weight: 600;
+    height: 40px;
+    padding: 12px 0;
+  }
+  .btn-get {
+    font-size: 16px;
+  }
+  .form-wrap {
+    padding: 8px;
+    gap: 16px;
+  }
+  .slider-left,
+  .slider-right {
+    width: 100%;
+    align-items: center;
+  }
+  .inp-slider {
+    height: 30px;
+    padding: 20px 8px;
+    font-size: 14px;
+  }
+  .menu-icon {
+    display: flex;
+  }
+  .item-hidden {
+    display: none;
+  }
+  .nav-list {
+    display: none;
+  }
+  .tab {
+    padding: 20px 0;
+  }
+  .tab-select {
+    justify-content: center;
+  }
+  .tab-item {
+    height: 47px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .tab-content {
+    gap: 16px;
+  }
+  .content-text {
+    gap: 12px;
+  }
+  .content-text p {
+    font-size: 14px;
+    line-height: 1.418;
+    letter-spacing: 1px;
+  }
+  .sub-content {
+    gap: 16px;
+  }
+  .sub-item {
+    gap: 12px;
+  }
+  .sub-icon {
+    width: 43px;
+  }
+
+  .awesome-section,
+  .contact-section {
+    padding: 20px 0;
+  }
+  .awesome-section_title {
+    font-size: 22px;
+  }
+  .awesome-section_desc,
+  .contact-section_desc {
+    margin-top: 12px;
+  }
+  .awesome-section-list {
+    margin-top: 20px;
+    gap: 16px;
+  }
+  .awesome-section-list-item {
+    margin-top: 0;
+    width: 100%;
+  }
+  .awesome-section-list-item-icon {
+    width: 50px;
+    height: 50px;
+  }
+  .awesome-list-item-title {
+    margin-top: 8px;
+    font-size: 16px;
+  }
+  .awesome-list-item-desc {
+    margin-top: 8px;
+  }
+  .stylish {
+    padding: 16px;
+  }
+  .form {
+    width: 100%;
+  }
+  .message-input {
+    width: 100%;
+  }
+  .contact-section_title {
+    font-size: 26px;
+  }
+  .btn-send {
+    margin-top: 20px;
+  }
+  footer {
+    height: 50px;
+  }
+  footer img {
+    width: 50%;
+  }
+  footer p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .awesome-section-list {
+    margin-top: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .awesome-section-list-item {
+    width: 100% !important;
+    margin-top: 40px;
+  }
+
+  .form-area {
+    flex-direction: column;
+    height: unset;
+  }
+  .form,
+  .message-input {
+    width: 100% !important;
+  }
+}
